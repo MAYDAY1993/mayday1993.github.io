@@ -307,7 +307,7 @@
     <link href="http://yoursite.com/2016/12/17/macOS-Security-and-Privacy-Guide/"/>
     <id>http://yoursite.com/2016/12/17/macOS-Security-and-Privacy-Guide/</id>
     <published>2016-12-16T16:00:00.000Z</published>
-    <updated>2017-01-08T10:45:04.000Z</updated>
+    <updated>2017-01-08T14:17:47.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="MacOS-的安全和隐私指南"><a href="#MacOS-的安全和隐私指南" class="headerlink" title="MacOS 的安全和隐私指南"></a>MacOS 的安全和隐私指南</h1><ul>
 <li>原文地址：<a href="https://github.com/drduh/macOS-Security-and-Privacy-Guide" target="_blank" rel="external">macOS Security and Privacy Guide</a></li>
@@ -1120,7 +1120,7 @@ $ chflags nohidden ~/Library
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
   </entry>
   
@@ -1248,7 +1248,7 @@ $ chflags nohidden ~/Library
     <link href="http://yoursite.com/2016/10/19/bootstrap-considered-harmful/"/>
     <id>http://yoursite.com/2016/10/19/bootstrap-considered-harmful/</id>
     <published>2016-10-18T16:00:00.000Z</published>
-    <updated>2017-01-08T10:51:03.000Z</updated>
+    <updated>2017-01-08T14:17:47.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>原文地址：<a href="https://hiddedevries.nl/en/blog/2016-08-09-bootstrap-considered-harmful" target="_blank" rel="external">Bootstrap considered harmful</a></li>
@@ -1276,7 +1276,7 @@ $ chflags nohidden ~/Library
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
   </entry>
   
@@ -1285,7 +1285,7 @@ $ chflags nohidden ~/Library
     <link href="http://yoursite.com/2016/10/19/using-a-core-data-model-in-swift-playgrounds/"/>
     <id>http://yoursite.com/2016/10/19/using-a-core-data-model-in-swift-playgrounds/</id>
     <published>2016-10-18T16:00:00.000Z</published>
-    <updated>2017-01-08T10:57:55.000Z</updated>
+    <updated>2017-01-08T14:17:57.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>原文链接 : <a href="https://www.andrewcbancroft.com/2016/07/10/using-a-core-data-model-in-swift-playgrounds/" target="_blank" rel="external">using-a-core-data-model-in-swift-playgrounds</a></li>
@@ -1329,7 +1329,7 @@ $ chflags nohidden ~/Library
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
   </entry>
   
@@ -1338,7 +1338,7 @@ $ chflags nohidden ~/Library
     <link href="http://yoursite.com/2016/10/18/Empty-State-Mobile-App-%E2%80%9CNice-to-Have%E2%80%9D-Essential/"/>
     <id>http://yoursite.com/2016/10/18/Empty-State-Mobile-App-“Nice-to-Have”-Essential/</id>
     <published>2016-10-17T16:00:00.000Z</published>
-    <updated>2017-01-08T10:53:50.000Z</updated>
+    <updated>2017-01-08T14:17:47.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>原文链接 : <a href="https://uxplanet.org/empty-state-mobile-app-nice-to-have-essential-f11c29f01f3" target="_blank" rel="external"> Empty State: Mobile App “Nice-to-Have” Essential </a></li>
@@ -1435,7 +1435,7 @@ $ chflags nohidden ~/Library
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
   </entry>
   
