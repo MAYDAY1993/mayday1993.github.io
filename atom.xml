@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-31T07:17:05.000Z</updated>
+  <updated>2017-01-09T10:57:15.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中文简历</title>
+    <link href="http://yoursite.com/2017/01/09/Chinese-CV/"/>
+    <id>http://yoursite.com/2017/01/09/Chinese-CV/</id>
+    <published>2017-01-09T10:47:54.000Z</published>
+    <updated>2017-01-09T10:57:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>站点暂不能评论 请转到<a href="https://github.com/MAYDAY1993/mayday1993.github.io" target="_blank" rel="external">github</a>提issue或邮件指教 欢迎疯狂怼我 蟹蟹。</p>
+</blockquote>
+<p><img src="https://cloud.githubusercontent.com/assets/14831051/21764149/8ca54438-d69c-11e6-8a0e-90628957a510.png" alt="c70882b5-c407-4ab1-8c58-a04bf24ce0bf"><br><img src="https://cloud.githubusercontent.com/assets/14831051/21764160/934ed9f2-d69c-11e6-910d-4e583a7f8cff.png" alt="509d2708-69ec-402f-af77-f3a522be8ac1"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;站点暂不能评论 请转到&lt;a href=&quot;https://github.com/MAYDAY1993/mayday1993.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github&lt;/a&gt;提issue或邮件指教
+    
+    </summary>
+    
+    
+      <category term="enrich" scheme="http://yoursite.com/tags/enrich/"/>
+    
+  </entry>
   
   <entry>
     <title>你不爱吃肉 你要多吃水果</title>
@@ -1607,72 +1632,43 @@ $ chflags nohidden ~/Library
   </entry>
   
   <entry>
-    <title>炖排骨汤</title>
-    <link href="http://yoursite.com/2016/10/01/port-soup/"/>
-    <id>http://yoursite.com/2016/10/01/port-soup/</id>
+    <title>小鸡炖蘑菇</title>
+    <link href="http://yoursite.com/2016/10/01/stewed-chicken-with-mushroom/"/>
+    <id>http://yoursite.com/2016/10/01/stewed-chicken-with-mushroom/</id>
     <published>2016-09-30T16:00:00.000Z</published>
-    <updated>2016-12-15T10:51:23.000Z</updated>
+    <updated>2016-12-15T10:49:37.000Z</updated>
     
-    <content type="html"><![CDATA[<p>奶奶熬了四个多小时的排骨汤</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>2016年国庆 天气晴朗 秋高气爽 蓝天白云</p>
+</blockquote>
+<p>小鸡炖蘑菇是一道很传统的东北大锅菜</p>
+<p>之前吃多了 不喜欢吃</p>
+<p>后来很少吃 非常想念</p>
+<p>故乡的菜 吃的不是味道 是回忆</p>
 <p><span style="color: #ff6600; font-size: 18pt;">#下面是图</span></p>
-<p>油都浮上来了 没加什么其他佐料 越简单 味儿越纯<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100117.jpg?imageView2/2/h/350"></p>
-<p>盛汤喝啦 通常一碰到什么骨头汤啊猪蹄汤啊牛肉汤啊鸭汤啊 我都不用吃饭了<br>先喝两碗汤暖暖胃 啃两块复杂的骨头 再喝两碗就饱啦<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100110.jpg?imageView2/2/h/350"></p>
-<p>哇哦<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100111.jpg?imageView2/2/h/350"></p>
-<p>其实 这时候的排骨没什么营养了 但是肉很嫩 对</p>
-<p><img src="http://7xsw2u.com1.z0.glb.clouddn.com/%2010019.jpg?imageView2/2/h/350"><br><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
-<p>有陪伴 才是温暖</p>
+<p>鸡是自己家养的 好像也不肥 肉很嫩</p>
+<p>蘑菇是前几天山上下雨 王大厨去采的 采蘑菇的小姑娘 ～～～</p>
+<p>粉条是土豆粉还是地瓜粉不知道</p>
+<p>干豆腐是后加的 一般都不放 炖着快熟了粑粑说 哎呀 这鸡汤得老香了 就说要放干豆腐吸吸味</p>
+<p>非说要卷成花儿 我一想到上次去火锅店 人家的豆腐花是用粉丝固定的 嗯 也学学<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100125.jpg?imageView2/2/h/350"></p>
+<p>快出锅啦 我在哪儿 我在你对面啊<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100127.jpg?imageView2/2/h/350"></p>
+<p>装盘<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100126.jpg?imageView2/2/h/350"></p>
+<p>我不是小馋猫  只是应该趁热吃 对 趁热吃好 挑了块鸡腿肉<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100128.jpg?imageView2/2/h/350"></p>
+<p>机智的我的杰作<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100129.jpg?imageView2/2/h/350"></p>
+<p>小蘑菇头儿<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100130.jpg?imageView2/2/h/350"></p>
+<p><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
+<p>好好</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;奶奶熬了四个多小时的排骨汤&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: #ff6600; font-size: 18pt;&quot;&gt;#下面是图&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;油都浮上来了 没加什么其他佐料 越简单 味儿越纯&lt;br&gt;&lt;img src=&quot;http://7xsw
-    
-    </summary>
-    
-    
-      <category term="吃" scheme="http://yoursite.com/tags/%E5%90%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>王大厨家的一顿饭</title>
-    <link href="http://yoursite.com/2016/10/01/dish/"/>
-    <id>http://yoursite.com/2016/10/01/dish/</id>
-    <published>2016-09-30T16:00:00.000Z</published>
-    <updated>2016-12-15T11:04:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>祖国你好 生日快乐</p>
-<p><span style="font-family: 'comic sans ms', sans-serif;"><br>你回家都吃什么呀</span></p>
-<p>你们那儿的菜码是不是都可大了 都用盆装啊</p>
-<p>你们那儿是不是顿顿都喝酒啊</p>
-<p>。。。。。。</p>
-<p><span style="color: #ff6600; font-size: 16pt;">#下面是图</span></p>
-<p>下面是回家第一天晚上的团圆饭</p>
-<p>油炸小鱼 奶奶炸的牛肉萝卜丝丸子</p>
-<p><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/10015.jpg?imageView2/2/h/350"></p>
-<p>嘤嘤嘤<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/10017.jpg?imageView2/2/h/350"></p>
-<p>煮好的大鹅蛋没人吃 我可以解决蛋清<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/10016.jpg?imageView2/2/h/350"></p>
-<p>炒护心间儿 之前没吃过这个菜<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100113.jpg?imageView2/2/h/350"></p>
-<p>哥哥买的石蛋 少吃怡情<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100114.jpg?imageView2/2/h/350"></p>
-<p>还给我买了烤肠  其实偶尔吃吃挺好吃的 嗯 每年都涨价 现在好像五块一根吧<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100121.jpg?imageView2/2/h/350"></p>
-<p>通常我不是打下手 端盘子 就是拼果盘 背回来的王小吃家的猕猴桃<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100115.jpg?imageView2/2/h/350"></p>
-<p>海参 补补<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100122.jpg?imageView2/2/h/350"></p>
-<p>重点来了！！！这个是我做的 红烧啤酒鸡翅 大家都说好吃</p>
-<p>我觉得有点儿咸 看样子还不错喔 在王大厨的指导下 第一次放了啤酒</p>
-<p>因为家里没有料酒了<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100214.jpg?imageView2/2/h/350"></p>
-<p>背回来的大芒果 爷爷很喜欢吃 喜欢就好 我就开心<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100215.jpg?imageView2/2/h/350"></p>
-<p>大合照<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100116.jpg?imageView2/2/h/350"></p>
-<p>这是第二天晚上 包饺子<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100216.jpg?imageView2/2/h/350"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;祖国你好 生日快乐&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: &#39;comic sans ms&#39;, sans-serif;&quot;&gt;&lt;br&gt;你回家都吃什么呀&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;你们那儿的菜码是不是都可大了 都用盆装啊&lt;/p&gt;
-&lt;p&gt;你们那儿是不是顿顿
+      &lt;blockquote&gt;
+&lt;p&gt;2016年国庆 天气晴朗 秋高气爽 蓝天白云&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;小鸡炖蘑菇是一道很传统的东北大锅菜&lt;/p&gt;
+&lt;p&gt;之前吃多了 不喜欢吃&lt;/p&gt;
+&lt;p&gt;后来很少吃 非常想念&lt;/p&gt;
+&lt;p&gt;故乡的菜 吃的不是味道 是回忆&lt;/p&gt;
     
     </summary>
     

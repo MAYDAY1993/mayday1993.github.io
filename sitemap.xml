@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/01/09/Chinese-CV/</loc>
+    
+    <lastmod>2017-01-09T10:57:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/10/19/using-a-core-data-model-in-swift-playgrounds/</loc>
     
     <lastmod>2017-01-08T14:17:57.000Z</lastmod>
@@ -9,7 +16,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/08/19/im-not-a-ux-designer-and-neither-are-you/</loc>
+    <loc>http://yoursite.com/2016/10/18/Empty-State-Mobile-App-%E2%80%9CNice-to-Have%E2%80%9D-Essential/</loc>
     
     <lastmod>2017-01-08T14:17:47.000Z</lastmod>
     
@@ -23,20 +30,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/10/18/Empty-State-Mobile-App-%E2%80%9CNice-to-Have%E2%80%9D-Essential/</loc>
-    
-    <lastmod>2017-01-08T14:17:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/10/19/bootstrap-considered-harmful/</loc>
-    
-    <lastmod>2017-01-08T14:17:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2016/08/03/iphone-custom-ring/</loc>
     
     <lastmod>2017-01-08T14:17:47.000Z</lastmod>
@@ -44,7 +37,21 @@
   </url>
   
   <url>
+    <loc>http://yoursite.com/2016/08/19/im-not-a-ux-designer-and-neither-are-you/</loc>
+    
+    <lastmod>2017-01-08T14:17:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/08/22/practical-svg/</loc>
+    
+    <lastmod>2017-01-08T14:17:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/10/19/bootstrap-considered-harmful/</loc>
     
     <lastmod>2017-01-08T14:17:47.000Z</lastmod>
     
