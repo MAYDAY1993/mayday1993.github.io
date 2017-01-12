@@ -381,11 +381,11 @@
   </entry>
   
   <entry>
-    <title>macOS-Security-and-Privacy-Guide</title>
+    <title>【译】MacOS 的安全和隐私指南</title>
     <link href="http://yoursite.com/2016/12/17/macOS-Security-and-Privacy-Guide/"/>
     <id>http://yoursite.com/2016/12/17/macOS-Security-and-Privacy-Guide/</id>
     <published>2016-12-16T16:00:00.000Z</published>
-    <updated>2017-01-08T14:17:47.000Z</updated>
+    <updated>2017-01-12T12:30:33.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="MacOS-的安全和隐私指南"><a href="#MacOS-的安全和隐私指南" class="headerlink" title="MacOS 的安全和隐私指南"></a>MacOS 的安全和隐私指南</h1><ul>
 <li>原文地址：<a href="https://github.com/drduh/macOS-Security-and-Privacy-Guide" target="_blank" rel="external">macOS Security and Privacy Guide</a></li>
@@ -1322,11 +1322,11 @@ $ chflags nohidden ~/Library
   </entry>
   
   <entry>
-    <title>bootstrap-considered-harmful</title>
+    <title>【译】你考虑清楚了吗就决定用 Bootstrap ？</title>
     <link href="http://yoursite.com/2016/10/19/bootstrap-considered-harmful/"/>
     <id>http://yoursite.com/2016/10/19/bootstrap-considered-harmful/</id>
     <published>2016-10-18T16:00:00.000Z</published>
-    <updated>2017-01-08T14:17:47.000Z</updated>
+    <updated>2017-01-12T12:31:03.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>原文地址：<a href="https://hiddedevries.nl/en/blog/2016-08-09-bootstrap-considered-harmful" target="_blank" rel="external">Bootstrap considered harmful</a></li>
@@ -1359,11 +1359,11 @@ $ chflags nohidden ~/Library
   </entry>
   
   <entry>
-    <title>using-a-core-data-model-in-swift-playgrounds</title>
+    <title>【译】在 Swift Playgrounds 中使用 Core Data 模型</title>
     <link href="http://yoursite.com/2016/10/19/using-a-core-data-model-in-swift-playgrounds/"/>
     <id>http://yoursite.com/2016/10/19/using-a-core-data-model-in-swift-playgrounds/</id>
     <published>2016-10-18T16:00:00.000Z</published>
-    <updated>2017-01-08T14:17:57.000Z</updated>
+    <updated>2017-01-12T12:31:31.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>原文链接 : <a href="https://www.andrewcbancroft.com/2016/07/10/using-a-core-data-model-in-swift-playgrounds/" target="_blank" rel="external">using-a-core-data-model-in-swift-playgrounds</a></li>
