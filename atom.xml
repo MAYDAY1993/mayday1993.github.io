@@ -1412,11 +1412,11 @@ $ chflags nohidden ~/Library
   </entry>
   
   <entry>
-    <title>Empty State Mobile App “Nice-to-Have” Essential</title>
+    <title>【译】在开发移动应用时你应该考虑的 「Empty State」</title>
     <link href="http://yoursite.com/2016/10/18/Empty-State-Mobile-App-%E2%80%9CNice-to-Have%E2%80%9D-Essential/"/>
     <id>http://yoursite.com/2016/10/18/Empty-State-Mobile-App-“Nice-to-Have”-Essential/</id>
     <published>2016-10-17T16:00:00.000Z</published>
-    <updated>2017-01-08T14:17:47.000Z</updated>
+    <updated>2017-01-12T12:38:06.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>原文链接 : <a href="https://uxplanet.org/empty-state-mobile-app-nice-to-have-essential-f11c29f01f3" target="_blank" rel="external"> Empty State: Mobile App “Nice-to-Have” Essential </a></li>
@@ -1425,7 +1425,8 @@ $ chflags nohidden ~/Library
 <li>译者 :<a href="https://github.com/MAYDAY1993" target="_blank" rel="external"> MAYDAY1993 </a></li>
 <li>校对者: <a href="https://github.com/jiaowoyongqi" target="_blank" rel="external">jiaowoyongqi</a> <a href="https://github.com/shixinzhang" target="_blank" rel="external">shixinzhang</a></li>
 </ul>
-<h1 id="在开发移动应用时你应该考虑的-「Empty-State」"><a href="#在开发移动应用时你应该考虑的-「Empty-State」" class="headerlink" title="在开发移动应用时你应该考虑的 「Empty State」"></a>在开发移动应用时你应该考虑的 「Empty State」</h1><p>普通应用在安装后的前三天会失去 77% 的日活跃用户。更为严重的是：三十天内，大约<a href="https://www.linkedin.com/pulse/losing-80-mobile-users-normal-why-best-apps-do-better-andrew-chen" target="_blank" rel="external"> 80% 的日活跃用户会流失</a>.</p>
+<p>#</p>
+<p>普通应用在安装后的前三天会失去 77% 的日活跃用户。更为严重的是：三十天内，大约<a href="https://www.linkedin.com/pulse/losing-80-mobile-users-normal-why-best-apps-do-better-andrew-chen" target="_blank" rel="external"> 80% 的日活跃用户会流失</a>.</p>
 <p>这些低留存率是因为应用做的很烂么？并不总是这个原因。</p>
 <p>用户试用了很多应用并且在最初的几天决定要删掉哪些。应用成功的关键是在关键时期吸引住用户。</p>
 <p>你的任务是确保用户停留足够长的时间并有很多交互操作来享受应用。 但在这些好情况发生之前他们应该享受第一次使用。</p>
