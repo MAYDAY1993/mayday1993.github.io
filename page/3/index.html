@@ -197,7 +197,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            Startseite
           </a>
         </li>
       
@@ -207,7 +207,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            Archiv
           </a>
         </li>
       
@@ -240,6 +240,220 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/18/Empty-State-Mobile-App-“Nice-to-Have”-Essential/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="John Doe">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="gleamwang">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="gleamwang" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/18/Empty-State-Mobile-App-“Nice-to-Have”-Essential/" itemprop="url">
+                  【译】在开发移动应用时你应该考虑的 「Empty State」
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-18T00:00:00+08:00">
+                2016-10-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/10/18/Empty-State-Mobile-App-“Nice-to-Have”-Essential/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/18/Empty-State-Mobile-App-“Nice-to-Have”-Essential/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li>原文链接 : <a href="https://uxplanet.org/empty-state-mobile-app-nice-to-have-essential-f11c29f01f3" target="_blank" rel="external"> Empty State: Mobile App “Nice-to-Have” Essential </a></li>
+<li>原文作者 : <a href="http://babich.biz/" target="_blank" rel="external"> Nick Babich </a></li>
+<li>译文出自 : <a href="https://github.com/xitu/gold-miner" target="_blank" rel="external">掘金翻译计划</a></li>
+<li>译者 :<a href="https://github.com/MAYDAY1993" target="_blank" rel="external"> MAYDAY1993 </a></li>
+<li>校对者: <a href="https://github.com/jiaowoyongqi" target="_blank" rel="external">jiaowoyongqi</a> <a href="https://github.com/shixinzhang" target="_blank" rel="external">shixinzhang</a></li>
+</ul>
+<p>#</p>
+<p>普通应用在安装后的前三天会失去 77% 的日活跃用户。更为严重的是：三十天内，大约<a href="https://www.linkedin.com/pulse/losing-80-mobile-users-normal-why-best-apps-do-better-andrew-chen" target="_blank" rel="external"> 80% 的日活跃用户会流失</a>.</p>
+<p>这些低留存率是因为应用做的很烂么？并不总是这个原因。</p>
+<p>用户试用了很多应用并且在最初的几天决定要删掉哪些。应用成功的关键是在关键时期吸引住用户。</p>
+<p>你的任务是确保用户停留足够长的时间并有很多交互操作来享受应用。 但在这些好情况发生之前他们应该享受第一次使用。</p>
+<p>通常我们设计一个很受欢迎的界面，布局里的每个元素看上去都安排的很好。空白状态界面通常是你最后设计的。事实上 empty state 对于吸引用户操作充满潜力。即使 empty state 只是一个临时的阶段，我们必须认真对待它带来的与用户交流的价值。</p>
+<p>什么时候用户遇到 empty state？</p>
+<ul>
+<li><p>第一次使用：应用第一次启动</p>
+</li>
+<li><p>错误：遇到一些问题</p>
+</li>
+<li><p>用户删除内容：当用户删掉所有的应用内容</p>
+<p>empty state 的作用不仅仅是装饰的作用。除了通知用户页面上期待展示的内容， empty state 也具有优化首次使用体验的作用－－他们告诉用户需要哪些明确的操作，所以应用才会有预期的功能。当用户遇到一个问题， empty state 也是极好（或坏）的。</p>
+</li>
+</ul>
+<p>一个成功 empty state 的完成下面三个目标：</p>
+<ul>
+<li><p>教育和帮助</p>
+</li>
+<li><p>让用户愉悦</p>
+</li>
+<li><p>提示用户进行操作</p>
+<p>empty state 的第一个目标是教人们怎么用你的应用。如果他们不理解功能，他们会离开。所以你应该通过建立起对未知的期待，让用户体验更好。</p>
+</li>
+</ul>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*Ssdl9aLaPp00aSyXk_9dfw.gif" alt=""></p>
+<p><a href="https://dribbble.com/shots/2264802-Empty-states" target="_blank" rel="external"> Invoice app </a> —双色插图的空白状态页，清晰地展示了如何快速地管理数据、查看销售业绩以及掌握客户动态的所有功能。</p>
+<p> empty state 应该在出错的时候起作用。你需要在 empty state  的友好和有用间找到平衡。当显示错误的时候，向用户解释为什么他看不到任何东西以及如何解决这一问题：</p>
+<p><strong>不好的例子:</strong> Spotify 的 empty state 只有 ‘An error occurred’ 信息</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*flCJh0D4pHW_MvN4WRwRxw.png" alt=""></p>
+<p><strong><a href="https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8" target="_blank" rel="external">Spotify’s</a></strong> 的错误提示并不像它本该的那样有用。</p>
+<p><strong>好的例子:</strong> Azendoo .感到迷茫和失连啦，像你在一个废弃的小岛上？听从建议，保持冷静，点把火，持续刷新就好啦。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*ydkY2tT5WIKUUH6KE6Te3w.png" alt=""></p>
+<p><a href="https://itunes.apple.com/us/app/azendoo-tasks-conversations/id581907820?mt=8" target="_blank" rel="external"> Azendoo’s </a>的错误页面好玩又有用。</p>
+<p>一个首次使用的好的 empty state 强调如下的时刻：</p>
+<p>一个好的印象不仅仅是关于可用性，还关于个性化。如果你的第一个 empty state 页面看上去和相似的产品有一点不同，你已经向用户表明整个产品的体验也可能不同。对于 empty state 你的目标是给用户一个愉快的惊喜。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*lds5Wy3tr9ZfczCvBDQcfA.png" alt=""></p>
+<p>苹果上 <strong>Dubizzle</strong> 的没有喜欢的广告。</p>
+<p>你能设计一些新鲜或惊喜的么？像是一个动态的 empty state ：</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*8rPDEnwRzQnReRL0CKdLzA.gif" alt=""></p>
+<p><strong>Workmates</strong>  —动物在单独页面用可爱的hi和hello和你打招呼呢。</p>
+<p>或者你可能编个笑话？</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*JBp1Gfz0tEyjkMsnncv-WA.png" alt=""></p>
+<p><strong><a href="https://itunes.apple.com/us/app/cognito-brain-training-games/id872808619?mt=8" target="_blank" rel="external">Cognito Brain Training</a></strong> —你会吃惊于看到一只鲨鱼，不管内容。</p>
+<p><a href="https://twitter.com/aarron?lang=en" target="_blank" rel="external"> Aaron Walter </a>用人类需求的等级作为一个应用有成功的用户体验的一个<a href="https://speakerdeck.com/aarron/learning-to-love-humans-emotional-interface-design" target="_blank" rel="external">解释</a>；应用除了应该是有用的，可靠的、能用的，也应该是使人欢快的。所以设计下面的页面同理：</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*YkkBujuWgkAgfHzF2LhGIA.jpeg" alt=""></p>
+<p>在 <strong>Line Play</strong> 里没有新闻结果。不管怎样，这体验很不好。</p>
+<p>看你的手机里的首次使用页和其他应用的 empty state 体验。通过以下方法来取悦用户：</p>
+<p>将一个 empty state 视为一个微型的登录页面。设计上保持微型的同时，一个成功的页面将会解释一个明确的特性并让用户有下一笔操作。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*8uoH4mJgXckTrXI00ENcsA.png" alt=""></p>
+<p>为了在一个 empty state 促使用户下一步操作，你应该这样：</p>
+<ul>
+<li>刺激用户：用适合用户的刺激性的语言和设计例如： “Learn more” 或 “Let’s get started.”</li>
+</ul>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*vPq7xB-7dPR0lbm0yrXokg.png" alt=""></p>
+<p><strong><a href="https://itunes.apple.com/us/app/dropbox/id327630330?mt=8" target="_blank" rel="external">Dropbox</a></strong> iOS 应用</p>
+<ul>
+<li>说服用户：提醒他们当他们使用产品后将会获取的好处</li>
+</ul>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*NJntJk_zESA2Wh9r." alt=""></p>
+<p><strong><a href="https://flipboard.com/" target="_blank" rel="external">Flipboard</a></strong> 移动端应用</p>
+<ul>
+<li>引导用户：向他们推荐并展示开始使用应用最好的方法。提供一个提示（或箭头）的按钮来引导用户采取必要的操作来关闭 empty state ，然后得到一个更有意义的页面“</li>
+</ul>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*x9PMwcO5DYUoRmeP.png" alt=""></p>
+<p>箭头在第二张图提示操作。来源：<a href="https://dribbble.com/shots/2096264-Empty-states" target="_blank" rel="external"> Dribbble </a></p>
+<ul>
+<li><p>深入研究 empty state 因为它不是用户体验中一个暂时的或很小的部分。让用户在使用你的应用的时候很欢快并且能将个人感觉和产品特性联系起来。向用户介绍应用的好处，用户才能知道他们为什么要在意这个产品。</p>
+</li>
+<li><p>视觉上保持简单的设计：通常来讲，简洁的页面，清晰的图标或插图和一个 <a href="https://en.wikipedia.org/wiki/CTA" target="_blank" rel="external"> CTA </a> 按钮足够了。</p>
+</li>
+<li><p>如果 empty state 是被用户的良好行为触发的，用一个愉快的信息来奖励用户。</p>
+</li>
+<li><p>如果 empty state 是出错后出现的，解释清楚怎样解决这个问题和返回到之前的页面</p>
+<p>empty state 和其他设计组件一样重要，因为用户体验是所有能和谐地起作用的部分的总和。用户界面需要信息和操作之间精细的平衡。 empty state 将用户和设计完善的UI界面相连接起来，以此来保留用户的注意力。</p>
+</li>
+</ul>
+<p><em>Follow UX Planet:</em> <a href="https://twitter.com/101babich" target="_blank" rel="external"><em>Twitter</em></a> <em>|</em> <a href="https://www.facebook.com/uxplanet/" target="_blank" rel="external"><em>Facebook</em></a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
     
       
 
@@ -290,7 +504,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-15T00:00:00+08:00">
                 2016-10-15
@@ -433,7 +647,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-07T00:00:00+08:00">
                 2016-10-07
@@ -625,7 +839,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/stewed-chicken-with-mushroom/">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/pork-soup/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="John Doe">
@@ -650,8 +864,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/10/01/stewed-chicken-with-mushroom/" itemprop="url">
-                  小鸡炖蘑菇
+                <a class="post-title-link" href="/2016/10/01/pork-soup/" itemprop="url">
+                  奶奶牌炖排骨汤
                 </a>
               
             
@@ -665,7 +879,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
                 2016-10-01
@@ -686,8 +900,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2016/10/01/stewed-chicken-with-mushroom/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/stewed-chicken-with-mushroom/" itemprop="commentCount"></span>
+                <a href="/2016/10/01/pork-soup/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/pork-soup/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -715,26 +929,289 @@
       
         
           
-            <blockquote>
-<p>2016年国庆 天气晴朗 秋高气爽 蓝天白云</p>
-</blockquote>
-<p>小鸡炖蘑菇是一道很传统的东北大锅菜</p>
-<p>之前吃多了 不喜欢吃</p>
-<p>后来很少吃 非常想念</p>
-<p>故乡的菜 吃的不是味道 是回忆</p>
+            <p>奶奶熬了四个多小时的排骨汤</p>
 <p><span style="color: #ff6600; font-size: 18pt;">#下面是图</span></p>
-<p>鸡是自己家养的 好像也不肥 肉很嫩</p>
-<p>蘑菇是前几天山上下雨 王大厨去采的 采蘑菇的小姑娘 ～～～</p>
-<p>粉条是土豆粉还是地瓜粉不知道</p>
-<p>干豆腐是后加的 一般都不放 炖着快熟了粑粑说 哎呀 这鸡汤得老香了 就说要放干豆腐吸吸味</p>
-<p>非说要卷成花儿 我一想到上次去火锅店 人家的豆腐花是用粉丝固定的 嗯 也学学<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100125.jpg?imageView2/2/h/350"></p>
-<p>快出锅啦 我在哪儿 我在你对面啊<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100127.jpg?imageView2/2/h/350"></p>
-<p>装盘<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100126.jpg?imageView2/2/h/350"></p>
-<p>我不是小馋猫  只是应该趁热吃 对 趁热吃好 挑了块鸡腿肉<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100128.jpg?imageView2/2/h/350"></p>
-<p>机智的我的杰作<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100129.jpg?imageView2/2/h/350"></p>
-<p>小蘑菇头儿<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100130.jpg?imageView2/2/h/350"></p>
+<p>油都浮上来了 没加什么其他佐料 越简单 味儿越纯<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100117.jpg?imageView2/2/h/350"></p>
+<p>盛汤喝啦 通常一碰到什么骨头汤啊猪蹄汤啊牛肉汤啊鸭汤啊 我都不用吃饭了<br>先喝两碗汤暖暖胃 啃两块复杂的骨头 再喝两碗就饱啦<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100110.jpg?imageView2/2/h/350"></p>
+<p>哇哦<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100111.jpg?imageView2/2/h/350"></p>
+<p>其实 这时候的排骨没什么营养了 但是肉很嫩 对</p>
+<p><img src="http://7xsw2u.com1.z0.glb.clouddn.com/%2010019.jpg?imageView2/2/h/350"><br><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
+<p>有陪伴 才是温暖</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/fish-source/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="John Doe">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="gleamwang">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="gleamwang" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/01/fish-source/" itemprop="url">
+                  小鱼酱
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
+                2016-10-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/10/01/fish-source/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/fish-source/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>小河边里总会有调皮的小鱼 老头儿鱼 什么什么鱼的</p>
+<p>长的不大的时候 用黄豆酱 炖一下 可好吃了 刺也不扎人</p>
+<p><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/10011.jpg?imageView2/2/h/350"></p>
+<p>这个是山里的小鱼 肉可嫩了</p>
 <p><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
-<p>好好</p>
+<p>游可以 给你自由 别忘了你的根</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/mama-noodle/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="John Doe">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="gleamwang">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="gleamwang" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/01/mama-noodle/" itemprop="url">
+                  手擀炸酱面
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
+                2016-10-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/10/01/mama-noodle/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/mama-noodle/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>最喜欢吃的就是麻麻或奶奶做的手擀面 再拌上刚做好的肉酱 满满的幸福</p>
+<p>有一种说法叫 上车饺子 下车面</p>
+<p>所以之前坐火车上学 麻麻都包饺子给我吃 再带一点儿 免得路上饿</p>
+<p>一下飞机 穿着短袖感受着东北特有的秋高气爽 看着蓝蓝的天空 吹着凉凉的小风</p>
+<p>开心</p>
+<p>路上麻麻问到哪儿啦 回完了之后就卖萌说 要吃炸酱面 其他什么也不用准备 两碗炸酱面就行</p>
+<p>母上大人说 知道啦 面都擀好了 回来就下</p>
+<p><span style="color: #ff6600; font-size: 16pt;">#下面是图</span></p>
+<p>除了肉酱 还有家里做好的牛肉辣酱 没来得及拍</p>
+<p>面都煮好了 时机最重要</p>
+<p>喵<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100123.jpg?imageView2/2/h/350"></p>
+<p>好 开拌 开吃<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100124.jpg?imageView2/2/h/350"><br><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
+<p>如果有一天 迷失风中 要如何回到你身边</p>
 
           
         
@@ -813,7 +1290,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
                 2016-10-01
@@ -916,142 +1393,6 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/pork-soup/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="John Doe">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="gleamwang">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="gleamwang" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/10/01/pork-soup/" itemprop="url">
-                  奶奶牌炖排骨汤
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
-                2016-10-01
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2016/10/01/pork-soup/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/pork-soup/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>奶奶熬了四个多小时的排骨汤</p>
-<p><span style="color: #ff6600; font-size: 18pt;">#下面是图</span></p>
-<p>油都浮上来了 没加什么其他佐料 越简单 味儿越纯<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100117.jpg?imageView2/2/h/350"></p>
-<p>盛汤喝啦 通常一碰到什么骨头汤啊猪蹄汤啊牛肉汤啊鸭汤啊 我都不用吃饭了<br>先喝两碗汤暖暖胃 啃两块复杂的骨头 再喝两碗就饱啦<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100110.jpg?imageView2/2/h/350"></p>
-<p>哇哦<br><img src="http://7xsw2u.com1.z0.glb.clouddn.com/100111.jpg?imageView2/2/h/350"></p>
-<p>其实 这时候的排骨没什么营养了 但是肉很嫩 对</p>
-<p><img src="http://7xsw2u.com1.z0.glb.clouddn.com/%2010019.jpg?imageView2/2/h/350"><br><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
-<p>有陪伴 才是温暖</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/dish/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1092,7 +1433,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
                 2016-10-01
@@ -1202,147 +1543,6 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/mama-noodle/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="John Doe">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="gleamwang">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="gleamwang" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/10/01/mama-noodle/" itemprop="url">
-                  手擀炸酱面
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
-                2016-10-01
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2016/10/01/mama-noodle/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/mama-noodle/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>最喜欢吃的就是麻麻或奶奶做的手擀面 再拌上刚做好的肉酱 满满的幸福</p>
-<p>有一种说法叫 上车饺子 下车面</p>
-<p>所以之前坐火车上学 麻麻都包饺子给我吃 再带一点儿 免得路上饿</p>
-<p>一下飞机 穿着短袖感受着东北特有的秋高气爽 看着蓝蓝的天空 吹着凉凉的小风</p>
-<p>开心</p>
-<p>路上麻麻问到哪儿啦 回完了之后就卖萌说 要吃炸酱面 其他什么也不用准备 两碗炸酱面就行</p>
-<p>母上大人说 知道啦 面都擀好了 回来就下</p>
-<p><span style="color: #ff6600; font-size: 16pt;">#下面是图</span></p>
-<p>除了肉酱 还有家里做好的牛肉辣酱 没来得及拍</p>
-<p>面都煮好了 时机最重要</p>
-<p>喵<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100123.jpg?imageView2/2/h/350"></p>
-<p>好 开拌 开吃<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100124.jpg?imageView2/2/h/350"><br><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
-<p>如果有一天 迷失风中 要如何回到你身边</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/little-apple/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1383,7 +1583,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
                 2016-10-01
@@ -1486,7 +1686,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/fish-source/">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/01/stewed-chicken-with-mushroom/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="John Doe">
@@ -1511,8 +1711,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/10/01/fish-source/" itemprop="url">
-                  小鱼酱
+                <a class="post-title-link" href="/2016/10/01/stewed-chicken-with-mushroom/" itemprop="url">
+                  小鸡炖蘑菇
                 </a>
               
             
@@ -1526,7 +1726,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-01T00:00:00+08:00">
                 2016-10-01
@@ -1547,142 +1747,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2016/10/01/fish-source/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/fish-source/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>小河边里总会有调皮的小鱼 老头儿鱼 什么什么鱼的</p>
-<p>长的不大的时候 用黄豆酱 炖一下 可好吃了 刺也不扎人</p>
-<p><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/10011.jpg?imageView2/2/h/350"></p>
-<p>这个是山里的小鱼 肉可嫩了</p>
-<p><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
-<p>游可以 给你自由 别忘了你的根</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/09/17/hongbaoshi-cake/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="John Doe">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="gleamwang">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="gleamwang" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/17/hongbaoshi-cake/" itemprop="url">
-                  红宝石
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-09-17T00:00:00+08:00">
-                2016-09-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2016/09/17/hongbaoshi-cake/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/17/hongbaoshi-cake/" itemprop="commentCount"></span>
+                <a href="/2016/10/01/stewed-chicken-with-mushroom/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/stewed-chicken-with-mushroom/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1711,12 +1777,25 @@
         
           
             <blockquote>
-<p>2016-09-17 风很大</p>
+<p>2016年国庆 天气晴朗 秋高气爽 蓝天白云</p>
 </blockquote>
-<p>红宝石的奶油小方上的奶油越来越少了</p>
-<p>上次买了份不记得名的蛋糕了 挺好吃的  超嫩超细腻</p>
-<p><img src="http://7xsw2u.com1.z0.glb.clouddn.com/bread1.jpeg?imageView2/2/h/530"></p>
-<p>挺好吃的</p>
+<p>小鸡炖蘑菇是一道很传统的东北大锅菜</p>
+<p>之前吃多了 不喜欢吃</p>
+<p>后来很少吃 非常想念</p>
+<p>故乡的菜 吃的不是味道 是回忆</p>
+<p><span style="color: #ff6600; font-size: 18pt;">#下面是图</span></p>
+<p>鸡是自己家养的 好像也不肥 肉很嫩</p>
+<p>蘑菇是前几天山上下雨 王大厨去采的 采蘑菇的小姑娘 ～～～</p>
+<p>粉条是土豆粉还是地瓜粉不知道</p>
+<p>干豆腐是后加的 一般都不放 炖着快熟了粑粑说 哎呀 这鸡汤得老香了 就说要放干豆腐吸吸味</p>
+<p>非说要卷成花儿 我一想到上次去火锅店 人家的豆腐花是用粉丝固定的 嗯 也学学<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100125.jpg?imageView2/2/h/350"></p>
+<p>快出锅啦 我在哪儿 我在你对面啊<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100127.jpg?imageView2/2/h/350"></p>
+<p>装盘<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100126.jpg?imageView2/2/h/350"></p>
+<p>我不是小馋猫  只是应该趁热吃 对 趁热吃好 挑了块鸡腿肉<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100128.jpg?imageView2/2/h/350"></p>
+<p>机智的我的杰作<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100129.jpg?imageView2/2/h/350"></p>
+<p>小蘑菇头儿<br><img class="" src="http://7xsw2u.com1.z0.glb.clouddn.com/100130.jpg?imageView2/2/h/350"></p>
+<p><span style="color: #ff6600; font-size: 18pt;">#总结</span></p>
+<p>好好</p>
 
           
         
@@ -1793,8 +1872,8 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">72</span>
-                <span class="site-state-item-name">posts</span>
+                <span class="site-state-item-count">73</span>
+                <span class="site-state-item-name">Artikel</span>
               </a>
             </div>
           
@@ -1804,8 +1883,8 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">11</span>
-                <span class="site-state-item-name">tags</span>
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">Tags</span>
               </a>
             </div>
           
@@ -1860,7 +1939,7 @@
 
 
 <div class="powered-by">
-  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
