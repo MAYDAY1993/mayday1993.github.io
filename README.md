@@ -1,47 +1,3 @@
-<!--hello world
-
-标题
-
-# 1
-## 2
-### 3
-#### 4
-
-列表
-
-无序
-* 1
-* 2
-* 3
-
-有序 
-1. 1
-2. 2
-3. 3
-
-引用 
-
-> 我心中尚未崩坏的地方
-
-链接
-
-[blog](http://www.gleamwang.com)
-
-图片
-
-![img](http://7xvj7p.com1.z0.glb.clouddn.com/02011.jpg)
-
-粗体／斜体
-
-*italic*
-
-**bold**
-
-分割线
-
-***
--->
-
 # 美食博主五月天的博客搬家啦！！！
 ## 原地址[戳我](www.gleamwang.com)内容不会变 里面有背景音乐 还适配了手机访问
 ## 新的美食和技术记录会写在这个仓库的issue下面
@@ -55,8 +11,11 @@
 
 嗯 祝好好 （很久没写 手好痒啊）
 
+[戳此查看所有](https://github.com/MAYDAY1993/mayday1993.github.io/issues)
+
 #### 声明
 
+* 除注明外，所有文章均采用 [Creative Commons BY-NC-ND 4.0（自由转载-保持署名-非商用-禁止演绎）](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)协议发布
 * 这个仓库里面的内容都是我吃好喝好码出来的 所以凡是没和我
 打招呼／没引出处就搬走了我的文字，就等着撕吧
 * 我打字不喜欢加标点 对 所以你们要适应
